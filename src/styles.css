@@ -147,3 +147,26 @@ p {
 .contact {
   margin-top: 20px;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 68px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  .image-main {
+    display: none;
+  }
+  .image-row {
+    display: none;
+  }
+  .text-row {
+    text-align: center;
+  }
+  .link-main {
+    text-align: center;
+  }
+}
